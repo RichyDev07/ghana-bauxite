@@ -1,0 +1,30 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.section{
+    background-image: url(../images/cropped-siga_header.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+
+    position: relative;
+    height: 70vh;
+}
+.animation{
+    background-color: red;
+    position: relative;
+    animation-name: example;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    
+}
+
+@keyframes example {
+    0%   {background-color:red; left:0px; top:0px;}
+
+    25%  {background-color:blue; ; top:0px;}
+
+  }
